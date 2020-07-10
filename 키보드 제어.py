@@ -26,17 +26,9 @@ def leftATK():
     move_left_2 = pyautogui.mouseUp(x = 320, y = 890)
 
 
+
+#ckick_ = pyautogui.click(x = 1503, y = 1002,clicks=1,interval=1)
+
 while(1):
-    leftATK()
-    leftATK()
-    leftATK()
-    leftATK()
-    leftATK()
-    leftATK()
-    rightATK()
-    rightATK()
-    rightATK()
-    rightATK()
-    rightATK()
-    rightATK()
-    
+    time.sleep(0.5)
+    print(pyautogui.position())
